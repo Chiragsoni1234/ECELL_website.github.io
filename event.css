@@ -1,0 +1,176 @@
+* {
+	box-sizing: border-box;
+}
+#zero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 27vh;
+	text-align: center;
+	/* background-image: url(assets/img/teeeeem.jpg);
+	background-repeat: no-repeat; */
+	/* background-size: 100%; */
+}
+
+.zero-container {
+	/* background-color: #f1cece; */
+	padding: 1.5rem;
+	border-radius: 10px;
+}
+
+body{
+	background-image: url(assets/img/yeellobg.jpeg);
+
+	background-repeat: no-repeat; 
+	 background-size: 600%; 
+}
+
+.main_heading {
+    font-family: "popins", sans-serif;
+    margin: 0;
+	font-size: 8rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.eve_cont {
+	font-family: "Open Sans", sans-serif;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+	align-items: center;
+	/* background: hsl(187 40% 98%); */
+    padding-block: 3rem;
+	padding-block-end: 5rem;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.cta h2 {
+	margin: 0;
+	font-size: 4rem;
+	color: azure;
+}
+
+@media (min-width: 50em) {
+	h2 {
+		font-size: 1.8rem;
+	}
+}
+
+.cta {
+	--shadowColor: 187 60% 40%;
+	display: flex;
+	flex-wrap: wrap;
+	background: hsl(187 70% 85%);
+	max-width: 50rem;
+	width: 100%;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	overflow: hidden;
+	border: 0.5rem solid;
+}
+
+.cta img {
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	flex: 1 1 300px;
+	outline: 0.5rem solid;
+}
+
+.cta__text-column {
+	padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw);
+	flex: 1 0 50%;
+}
+
+.cta__text-column > * + * {
+	margin: min(1.5rem, 2.5vw) 0 0 0;
+}
+
+.cta a {
+	display: inline-block;
+	color: black;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	background: hsl(187 75% 64%);
+	border-radius: 0.6rem;
+	font-weight: 700;
+	border: 0.35rem solid;
+}
+
+/* body > img {
+	border: solid rgb(220, 199, 199) 2px;
+} */
+
+section{
+
+	padding: 4px;
+	overflow: hidden;
+}
+
+/* Apply a mobile-first approach by targeting smaller screens first */
+/* Adjust fonts and spacing for smaller screens */
+body {
+	font-size: 16px;
+	line-height: 1.6;
+  }
+  
+  /* Increase font size for larger screens */
+  @media (min-width: 768px) {
+	body {
+	  font-size: 18px;
+	}
+  }
+  
+  /* Adjust header styles for smaller screens */
+  #header {
+	background-color: #897575; /* Change the background color */
+  }
+  
+  /* Adjust navigation styles for smaller screens */
+  #navbar ul {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  #navbar li {
+	margin: 5px 0;
+  }
+  
+  /* Adjust the logo size for smaller screens */
+  #logo img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Update styles for the cta articles to make them stack vertically on smaller screens */
+  .cta {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  }
+  
+  .cta img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* Add responsive styles for the footer */
+  #footer {
+	padding: 20px;
+  }
+  
+  /* Add media queries for larger screens as needed */
+  @media (min-width: 992px) {
+	/* Add styles for screens with a minimum width of 992px here */
+  }
+  
+  @media (min-width: 1200px) {
+	/* Add styles for screens with a minimum width of 1200px here */
+  }
+  
